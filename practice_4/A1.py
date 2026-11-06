@@ -31,8 +31,8 @@ for i in range(total_examples):
 credn_time = all_time / total_examples
 percent_correct = (prav_answer / total_examples) * 100
 
-total_examples = print(f'Кол-во примеров: {total_examples}')
-all_time = print(f'Общее время: {round(all_time, 2)}')
-credn_time = print(f'Среднее время: {round(credn_time, 2)}')
-prav_answer = print(f'Правильных ответов: {prav_answer}')
-percent_correct = print(f'Процент верных ответов: {round(percent_correct, 1)}%')
+print(f'Кол-во примеров: {total_examples}')
+print(f'Общее время: {round(all_time, 2)}')
+print(f'Среднее время: {round(credn_time, 2)}')
+print(f'Правильных ответов: {prav_answer}')
+print(f'Процент верных ответов: {round(percent_correct, 1)}%')
